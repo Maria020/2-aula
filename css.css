@@ -1,0 +1,61 @@
+/* soft reset do css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-image:url('https://chupadados.codingrights.org/wp-content/uploads/2016/11/degrade-azul-roxo-crop.jpg');
+    font-family: Arial; 
+    background-size:100vw auto;
+    font-size: 14px;
+  } 
+  @media (min-width: 400px) {
+body { 
+  font-size: 18px;
+}
+  }
+  header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  a{ 
+    color: black;
+    text-decoration: none; 
+  }
+  a:hover {
+    text-decoration:underline;
+  }
+  .menu a {
+    display: block;
+    padding: 10px 20px;
+    background-color: rgb(239, 197, 255);
+  }
+  .menu li {
+    list-style: none; 
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .site-subtitle,
+  .site-title{
+    text-align:center;
+    color:  #E0FFFF; 
+  }
+  .site-subtitle{
+    font-style: italic;
+  }
+  .menu {
+    background-color: #E0FFFF; 
+    position: fixed;
+    width: 100vw;
+    top: 0;
+  }
+  .img-portifolio{
+    height: 200px;
+    width: 200px;
+    display: flex;
+  }
